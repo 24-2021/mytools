@@ -55,7 +55,3 @@ docker exec -it [id]  bash
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/12847038/1697169346108-12c2a451-0ebf-4ff5-bb47-8ca0eb1c5256.png#averageHue=%23020203&clientId=u6fb7f864-a57f-4&from=paste&height=590&id=uc5b0116d&originHeight=738&originWidth=1132&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=160992&status=done&style=none&taskId=ue3590a5e-411c-4fda-97aa-5419b0cbbea&title=&width=905.6)
 发现启动成功
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/12847038/1697169390848-c474c950-bd10-426d-a7fc-e18c6f6949e0.png#averageHue=%23020203&clientId=u6fb7f864-a57f-4&from=paste&height=273&id=u513b73e3&originHeight=341&originWidth=1593&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=83892&status=done&style=none&taskId=u8c736088-8463-4217-9f2a-5ffb0869cc1&title=&width=1274.4)
-## 插桩
-```bash
-java -javaagent:./SecPoint.jar -Dtcsec.app.key=default -jar SecPoint.jar 
-```
